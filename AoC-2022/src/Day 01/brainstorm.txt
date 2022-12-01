@@ -1,0 +1,7 @@
+elves = {
+    num_of_elves = n
+    elve_lowest_calories = n
+    lowest_calories = n
+    elve_highest_calories = n
+    highest_calories = n
+}
