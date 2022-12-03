@@ -1,4 +1,12 @@
 def puzzle_to_list(puzzle_input:str) -> list:
+    """Returns the puzzle input as two dimensional array
+
+    Args:
+        puzzle_input (str): Puzzle-input as relative or absolute path and filename
+
+    Returns:
+        list: Returns a two dimensional list i.e [["A", "B"]]
+    """
     puzzle_list = list()
 
     with open(puzzle_input, "r") as puzzle:
