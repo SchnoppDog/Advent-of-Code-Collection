@@ -1,0 +1,5 @@
+# Day 06 - Difficulties and Thoughts
+
+Today was pretty simple aswell. Reading through this days task brought me first the idea to use many `if char in packet_range` to get a unique character followup. But I discarded that idea quickly and searched the web for a way to check on repeated characters. Luckily I found [a piece of code](https://bobbyhadz.com/blog/python-check-if-character-appears-twice-in-string), which helped me creating my `repeated_characters()` function. **Everything else was a piece of cake.**
+
+When I glanced at part two of this days task I thought that the `start-of-message marker` would be something different. Out of curiosity I replaced the `search_packets_range = 4` with `search_packets_range = 14`, ran my code, submitted the answer and -*for my surprise*- it was immediately correct. So there was nothing more to do than, as always, adding the typehints and docstrings for code-documentation, committing to GitHub and pasting my answer on the subreddits [day 06 solutions megathread](https://www.reddit.com/r/adventofcode/comments/zdw0u6/2022_day_6_solutions/).
